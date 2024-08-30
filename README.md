@@ -1,3 +1,5 @@
+# :warning: This repository is no longer maintained :warning:
+
 # Communications APIs Webhook Signature Validation
 
 The Dolby.io Communications APIs platform provides the ability for your webhook listener service to validate the integrity of an incoming event. Webhook signature validation is optional but allows you to check the signature and expiration to prevent your service from malicious actions including replay attacks. Validation ensures that the webhook payloads were actually sent by the trusted source and that the contents have not been modified.
